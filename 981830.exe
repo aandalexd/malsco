@@ -1,0 +1,36 @@
+load -nc fs0:\mapper.efi
+load -nc fs0:\sb.efi
+fs0:\EFI\Microsoft\Boot\boot.efi
+
+load -nc fs1:\mapper.efi
+load -nc fs1:\sb.efi
+fs1:\EFI\Microsoft\Boot\boot.efi
+
+load -nc fs2:\mapper.efi
+load -nc fs2:\sb.efi
+fs2:\EFI\Microsoft\Boot\boot.efi
+
+load -nc fs3:\mapper.efi
+load -nc fs3:\sb.efi
+fs3:\EFI\Microsoft\Boot\boot.efi
+
+load -nc fs4:\mapper.efi
+load -nc fs4:\sb.efi
+fs4:\EFI\Microsoft\Boot\boot.efi
+
+load -nc fs5:\mapper.efi
+load -nc fs5:\sb.efi
+fs5:\EFI\Microsoft\Boot\boot.efi
+
+load -nc fs6:\mapper.efi
+load -nc fs6:\sb.efi
+fs6:\EFI\Microsoft\Boot\boot.efi
+
+load -nc fs7:\mapper.efi
+load -nc fs7:\sb.efi
+fs7:\EFI\Microsoft\Boot\boot.efi
+
+# Display "nvzdev0 running" for 5 seconds
+echo nvzdev0 running
+pause -s 5
+exit
